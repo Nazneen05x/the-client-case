@@ -7,9 +7,9 @@
   grid-template-rows:  1fr;
   grid-template-areas:
     "nav main";
-}
+} */
 
-header {
+/* header {
   grid-area: header;
 }
 
