@@ -9,7 +9,7 @@ body {
   grid-template-rows:  1fr 1fr 1fr;
   grid-template-areas:
   "nav main";
-  
+  overflow: clip;
   
 }
 .img-patroon{
@@ -19,6 +19,12 @@ body {
   /* left: 0 !important; */
   
 }
+
+.dagboek {
+  text-align: center;
+  justify-content: center;
+}
+
 
 /* .page_indelling{
   display: grid;
