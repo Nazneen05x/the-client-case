@@ -20,9 +20,25 @@ body {
   
 }
 
-.dagboek {
+ .dagboek {
+   /* margin-top: 1.5em;
+   padding: 5em;
   text-align: center;
+  justify-content: center; */
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -11em;
+  margin-right: 11.5em;
+
+ }
+
+p {
+  margin-top: 1.5em;
+  padding-bottom: 20em;
+ text-align: center;
+ justify-content: center;
 }
 
 
@@ -50,6 +66,8 @@ nav {
 h1 {
 justify-content: center;
 font-family: Arial, Helvetica, sans-serif;
+color: var(--pinda);
+font-size: 30px;
 }
 
 /* menu */
@@ -207,7 +225,9 @@ font-family: Arial, Helvetica, sans-serif;
   width: calc(100% - 80px);
   left: 70px;
 }  
-
+.main.active > .img-patroon{
+margin-left: 45em;
+}
 .toggle {
   position: relative;
   width: 166px;
