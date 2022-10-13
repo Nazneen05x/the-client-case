@@ -23,7 +23,7 @@
       <h1>Dagboek</h1>
       <p>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk<br>
         advies voor jouw Mini geformuleerd kan worden.</p>
-      <button class="button button5"><i class="fas fa-plus"><ion-icon name="add-outline"></ion-icon></i></button>
+      <button onclick="myFunction()" class="button button5">+<i class="fas fa-plus"></i></button>
 
    </div>  
     <div class="card">
@@ -34,8 +34,47 @@
       <ion-icon name="chevron-forward-outline" class="icon"></ion-icon>
       </div>
      </div>
+
+     <div class="card2">
+      <img src="./assets/jose-ibarra-ifM0755GnS0-unsplash.jpg" alt="" style="width: 34%;"> 
+      <div class="cardtekst">
+      <p>Jose Ibarra</p>
+      
+      <ion-icon name="chevron-forward-outline" class="icon"></ion-icon>
+      </div>
+     </div>
+     <form method="post" class="form" id="myDIV">
+     <div class="form-icon"><ion-icon name="person-circle-outline" style="font-size: 30px;"></ion-icon>
+      <h2>Nieuwe Mini</h2></div> 
+
+      <div class="input">
+      <input type="text" id="fname" name="fname" placeholder="Naam"><br>
+      </div>
+
+      <div class="input">
+      <input type="text" id="Aname" name="Aname" placeholder="Achternaam"><br>
+      </div>
+
+      <div class="input">
+      <input type="date" id="date" name="date"><br>
+      </div>
+
+      <div class="input">
+      <input type="text" id="text" name="text" placeholder="Opmerkingen"><br>
+      </div>
+   
+
+      <button>Annuleren</button>
+
+      <button>Toevoegen</button>
+
+     </form>
+
+
     </div>
     <!-- main -->
+
+
     <!-- menu (list - divs) -->
     <div class="container">
     <div class="navigation">
@@ -57,7 +96,7 @@
 
     <!-- Dagboek -->
     <li class="list">
-    <a href="/dagboek.html">
+    <a href="/the-client-case/dagboek.html">
     <span class="icon">
     <ion-icon name="book-outline"></ion-icon>
     </span>
@@ -123,6 +162,16 @@
     this.classList.add("hovered");
     }
     list.forEach((item) => item.addEventListener('mouseover', activelink));
+
+    //form
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
   </script>
   </nav>
   

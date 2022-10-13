@@ -16,17 +16,21 @@ body {
 /* CARD */
 
 .card  {
-  background-color: pink;
+  background-color: #D5EDEE;
   display: flex;
-   width: 10em;
+  width: 14em;
+  height: 5em;
    padding: .5em;
    border-radius: 20px;
+   margin-top: 10.5em;
+   margin-left: 25em;
+
 } 
-.card img {
+.card img, .card2 img {
   border-radius: 60%;
 }
 
-.card p {
+.card p, .card2 p {
   font-size: 11px;
   display: flex;
   flex-direction: column;
@@ -42,7 +46,20 @@ body {
 
  .cardtekst .icon{
   width: 20px;
+  margin-top: 9px;
  }
+
+ .card2  {
+  background-color: #D5EDEE;
+  display: flex;
+  width: 14em;
+  height: 5em;
+   padding: .5em;
+   border-radius: 20px;
+   margin-top: 1em;
+   margin-left: 25em;
+} 
+
 
  /* CARD */
  
@@ -84,7 +101,7 @@ p {
  justify-content: center;
 }
 
-
+/* BUTTON */
 
 .button {
   background-color: var(--pinda);
@@ -98,9 +115,50 @@ p {
   margin: -17em;
   margin-right: -2em;
   border-radius: 50%;
+ 
+  
+}
+
+.form  {
+  padding: 1em;
+  background-color: var(--pinda);
+  margin-top: -12em;
+  margin-left: 24.5em;
+  width: 16em;
+  display: none;
+  z-index: 1;
+  position: relative;
+  border-radius: 10px;
+  color: var(--white);
+  text-align: center;
+}
+
+.form input{
+  width: 15em;
+  padding: 1em;
+}
+
+.form-icon{
+  display: flex;
+  justify-content: center;
+  margin-left: -1em;
+  
+}
+
+.form-icon h2{
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+.form div{
+  padding: 0 0 1.5em 0 ;
 
 }
 
+.form button {
+  width: 7.5em;
+  padding: 1em;
+}
 
 
 h1 {
@@ -268,6 +326,23 @@ font-size: 30px;
 .main.active > .img-patroon{
 margin-left: 45em;
 }
+.main.active .card{
+  margin-left: 32em;
+}
+
+.main.active .card2{
+  margin-left: 32em;
+}
+
+.main.active .form{
+  margin-left: 32em;
+}
+
+
+.main.active .dagboek{
+  margin-top: -15em;
+}
+
 .toggle {
   position: relative;
   width: 166px;
