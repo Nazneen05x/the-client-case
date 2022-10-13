@@ -13,6 +13,39 @@ body {
   
 }
 
+/* CARD */
+
+.card  {
+  background-color: pink;
+  display: flex;
+   width: 10em;
+   padding: .5em;
+   border-radius: 20px;
+} 
+.card img {
+  border-radius: 60%;
+}
+
+.card p {
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cardtekst {
+  display: flex;
+  margin-top: 1em;
+  margin-left: 10px;
+  
+} 
+
+ .cardtekst .icon{
+  width: 20px;
+ }
+
+ /* CARD */
+ 
 nav {
   grid-area: nav;
 }
