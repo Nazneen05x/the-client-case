@@ -33,7 +33,7 @@
 
 
 <h2>
-Licentie
+ 🔒 Licentie
 </h2>
 
 ![image](https://user-images.githubusercontent.com/112861261/195268886-d661d739-e7e6-49c1-824d-94a9db6678ea.png)
