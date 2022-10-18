@@ -1,7 +1,7 @@
 <h1>Vini Mini 🥜 (Online-Dagboek)</h1>
 
 
-<h3>📚 INHOUDSOPGAVE</h3>
+<h2>📚 INHOUDSOPGAVE</h2>
 
 <ul>
         <li>Beschrijving</li>
@@ -10,15 +10,16 @@
         <li>Bronnen</li>
 </ul>
 
-<h3>
+
+<h2>
 🗒️ BESCHRIJVING
-</h3>
+</h2>
 
 <p><strong>Doel opdracht:</strong> Een persoonlijk platform (dagboek) maken. Zodat ouders kunnen bijhouden wanneer ze allergenen moeten geven aan hun kinderen.</p>
 
-<h3>
+<h2>
 👩‍💻 KENMERKEN
-</h3>
+</h2>
 
 <p> Voor deze opdracht heb ik, HTML en CSS (Javascript) gebruikt om het persoonlijk platform (dagboek) te maken. Verder Hieronder een lijst met gebruikte tools en middelen.
 </p>
@@ -49,16 +50,15 @@
         
  </ul>
  
- <h3>
+<h2>
 💻 GEBRUIK
-</h3>
+</h2>
 
 <p> Het persoonlijk platform (dagboek) kan je bekijken op alle schermen. Je kan alleen het het persoonlijk platform (dagboek) bekijken als je een account heb bij Vini Mini.</p>
 
-<h3>
-
+<h2>
 🌐 BRONNEN
-</h3>
+</h2>
 
 <ul>
         <li>https://github.com/Nazneen05x/</li>
@@ -69,9 +69,9 @@
         
 </ul>
 
-<h3>
+<h2>
 LICENTIE
-</h3>
+</h2>
 
 ![image](https://user-images.githubusercontent.com/112861261/195268886-d661d739-e7e6-49c1-824d-94a9db6678ea.png)
 
