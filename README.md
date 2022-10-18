@@ -1,5 +1,7 @@
 <h1>Vini Mini 🥜 (Online-Dagboek)</h1>
 
+![image](https://user-images.githubusercontent.com/112861261/196535783-8ef6681a-a1bb-44cb-9dee-ee40b22946ba.png)
+
 
 <h2>📚 Inhoudsopgave</h2>
 
