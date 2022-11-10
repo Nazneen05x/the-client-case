@@ -85,7 +85,7 @@ Bekijk hier het dagboek: https://nazneen05x.github.io/the-client-case/
 💻 Gebruik
 </h2>
 
-Het persoonlijk platform (dagboek) kan je bekijken op alle schermen. Je kan alleen het het persoonlijk platform (dagboek) bekijken als je een account heb bij Vini Mini.
+Het persoonlijk platform (dagboek) kan je op dit moment alleen bekijken op desktop. Je kan alleen het het persoonlijk platform (dagboek) bekijken als je een account heb bij Vini Mini.
 
 <h2>
 🌐 Bronnen
